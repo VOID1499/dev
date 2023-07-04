@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+    color: #F2F2F2;
+    background: linear-gradient(180deg, rgba(8, 9, 11, 0.50) 0%, rgba(21, 18, 25, 0.50) 40.10%, rgba(38, 27, 46, 0.50) 71.35%, rgba(38, 27, 46, 0.50) 100%), url('/images/8machine-_-FD-pH18vrOY-unsplash\(1\)\(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1{
+    font-size: 64px;
+    border-radius: 56px;
+    border: 13px solid #22253B;
+}
+
+
+@media (max-width: 768px) {
+    .sin-borde {
+      border: none;
+    }
+  }
+
+p{
+    font-size: 30px;
+}
+
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+.bg-secundario{
+    background-color: #22253B;
+}
+
+.text-color-secundario{
+    color: #A7A7A7;  
+}
+
+
+.imagen-proyecto {
+    transition: all .5s ease-out;
+}
+
+.proyecto:hover > .imagen-proyecto {
+    opacity:1;
+    filter: blur(5px);
+}
+
+.proyecto:hover > .mask-proyecto{
+    background-color: #22253B;
+    opacity:.8;
+}
+
+.mask-proyecto{
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
